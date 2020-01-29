@@ -7,20 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace pokeDestined1
 {
-    public partial class _Default : Page
+    public partial class Main : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
-        }
-
-        protected void Login1(object sender, EventArgs e)
-        {
-            string t1 = e1.Text;
-            if (t1.Equals("ger"))
-            {
-                Response.Redirect("Main.aspx");
-            }
         }
     }
 }
