@@ -21,6 +21,7 @@ namespace pokeDestined1
             if (t1.Equals("ger") && t2.Equals("123"))
             {
                 Response.Redirect("Main.aspx");
+                Session["user"] = t1;
             }
         }
     }
