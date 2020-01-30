@@ -17,7 +17,8 @@ namespace pokeDestined1
         protected void Login1(object sender, EventArgs e)
         {
             string t1 = e1.Text;
-            if (t1.Equals("ger"))
+            string t2 = p1.Text;
+            if (t1.Equals("ger") && t2.Equals("123"))
             {
                 Response.Redirect("Main.aspx");
             }
