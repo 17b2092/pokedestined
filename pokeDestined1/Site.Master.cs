@@ -13,5 +13,9 @@ namespace pokeDestined1
         {
 
         }
+        protected void Logout1(object sender, EventArgs e)
+        {
+            Response.Redirect("Default.aspx");
+        }
     }
 }

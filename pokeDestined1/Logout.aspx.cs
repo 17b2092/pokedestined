@@ -7,15 +7,13 @@ using System.Web.UI.WebControls;
 
 namespace pokeDestined1
 {
-    public partial class Main : System.Web.UI.Page
+    public partial class Logout : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["user"]==null)
-            {
-                Response.Redirect("Default.aspx");
-            }
-            label1.Text = Session["user"].ToString();
+            Session.Clear();
+            Session.Abandon();
+            Response.Redirect("Default.aspx");
         }
     }
 }
