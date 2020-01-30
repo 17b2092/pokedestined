@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.Master" CodeBehind="Main.aspx.cs" Inherits="pokeDestined1.Main" %>
+﻿<%@ Page Title="Main Menu" Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.Master" CodeBehind="Main.aspx.cs" Inherits="pokeDestined1.Main" %>
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 <!DOCTYPE html>
 
