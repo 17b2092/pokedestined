@@ -8,7 +8,7 @@
 </head>
 <body>
     
-    <p>hello <asp:Label runat="server" ID="label1"></asp:Label></p>
+    <p><asp:Label runat="server" ID="label1"></asp:Label></p>
 </body>
 </html>
 </asp:Content>

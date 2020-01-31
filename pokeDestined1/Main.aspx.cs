@@ -11,11 +11,13 @@ namespace pokeDestined1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+           
             if (Session["user"]==null)
             {
-                Response.Redirect("Default.aspx");
+                Response.Redirect("Login.aspx");
             }
             label1.Text = Session["user"].ToString();
+            
         }
     }
 }
